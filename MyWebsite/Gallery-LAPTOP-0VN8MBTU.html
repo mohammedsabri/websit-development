@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<head>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+   <script src="js/lightbox-plus-jquery.minjs"></script>
+ 
+</head>
+<body>
+<br>
+ <section class="ui grid container">
+<header class="ui black sixteen wide column segment">  
+<h1>Juventus Football Club</h1> 
+<h1>Jeep</h1>
+
+</header>
+<div class="ui inverted segment sixteen wide column segment">
+  <div class="ui inverted secondary pointing menu">
+    <a class="item" href="Home.html">
+      Home
+    </a>
+    <a class="item" href="Aboutus.html">
+      About us
+    </a>
+   <a class="active item" href="Gallery.html">
+      Gallery
+    </a>
+	<a class="item" href="Contactus.html">
+      Contact us
+    </a>
+  </div>
+</div>
+  
+
+
+
+
+
+<div id = "container">
+<div id="images">
+  <a href="image/Matuidi.PNG"  data-title = "Matuidi" data-lightbox="players"><img src="images/Matuidi.PNG width="120" height="90" alt="Matuidi"></a>
+  <a href="images/PJANIC.PNG" data-title = "PJANIC"    data-lightbox="players"><img src="images/ width="120" height="90" alt="PJANIC"></a>
+  <a href="images/RONALDO.PNG" data-title = "RONALDO" data-lightbox="players"><img src="images/ width="120" height="90" alt="RONALDO"></a>
+  <a href="images/Dybala.PNG" data-title = "Dybala" data-lightbox="players"><img src="images/ width="120" height="90" alt="Dybala"></a>
+  <a href="images/Bonucci.PNG" data-title = "Bonucci"  data-lightbox="players"><img src="images/ width="120" height="90" alt="Bonucci"></a>
+  <a href="images/SANDRO.PNG" data-title = "SANDRO"  data-lightbox="players"><img src="images/ width="120" height="90" alt="SANDRO"></a>
+  </div>
+</div>
+
+
+ 
+
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+ <script src="js/lightbox.min.js"> </script>
+<script>
+$(document).ready(function() {
+
+
+$('#images img').on('mouseover',function() {
+    $(this).css('opacity', 0.6);
+   });
+$('#images img').on('mouseout',function() {
+    $(this).css('opacity', 1);
+   });
+
+
+
+
+
+  
+
+}); // end ready()
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/lightbox.min.js"> </script>     
+</section>
+</body>
+</html> 
