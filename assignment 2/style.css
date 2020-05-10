@@ -1,0 +1,57 @@
+body {
+    background-image:url(../images/37.JPG);
+	background-repeat: repeat-y;
+}
+h1 {
+    color: red;
+    text-align: center;
+	font-size:25;
+}
+
+
+H2 {
+    color:black;
+	
+	
+}
+h3 {
+    color:black;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color:black;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+	
+div{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+	margin-left:690px;
+	width:500px;
+}
+
+div{
+    float: left;
+	width:100px;
+}
+
+div a {
+    display: block;
+    color:blue;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+div  a:hover {
+    background-color:#111111;
+}
